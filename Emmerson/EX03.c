@@ -3,8 +3,6 @@
 #include <string.h>
 #include <stdlib.h>
 
-#define N d5;
-
 void busca();
 void geren();
 void print();
@@ -29,10 +27,10 @@ int main(){
 			case 3: print();
 				break;
 			default: system("exit");
-		/*	default: printf("Função invalida!\n Me infome novamente!\n"); scanf("%d", &i);*/
+		/*	default: printf("FunÃ§Ã£o invalida!\n Me infome novamente!\n"); scanf("%d", &i);*/
 		}
 	/*	if(i<0&&i>5){
-			printf("Função invalida!\n Me infome novamente!"); scanf("%d", &i);
+			printf("FunÃ§Ã£o invalida!\n Me infome novamente!"); scanf("%d", &i);
 		}*/
 	//}while(i<0&&i>5);
 }
@@ -43,15 +41,14 @@ void busca(){
 	int r;
 	char nome[50];
 	system ("cls");
-	printf("Qual modo de Busca você tem interesse?\n1 - 1º Nome\n2 - Mês de Aniversario"); scanf("%d", &i);
+	printf("Qual modo de Busca vocÃª tem interesse?\n1 - 1Âº Nome\n2 - MÃªs de Aniversario"); scanf("%d", &i);
 	switch(i){
 		case 1:	fflush(stdin);
-				printf("Me informe o nome que precisa Buscar: "); fgets(nome, 50, stdin);
+				printf("Me informe o nome que precisa Buscar: "); gets(nome);
 				r=strlen(nome);
 				char aux[r];
 				for(i=0;i<100;i++){
 				strncpy(aux,agen[i].nome,r);
-				aux[r] = "\0";
 				if(strcmp(aux,nome)==0){
 				
 	*/
