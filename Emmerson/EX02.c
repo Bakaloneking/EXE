@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-#define N 5;
+const int N=5;
 
 void ord();
 
