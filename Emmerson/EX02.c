@@ -48,6 +48,6 @@ int main(){
 		 }
 	 }
 	for(i=0;i<N;i++){
-		printf("***PESSOA %d***\n%s\n%s\n%d\n%s\n%s\n%d\n%s\n%s\n%d\n%d\n%d\n",i+1,pess[i].nome,pess[i].rua,pess[i].num,pess[i].bair,pess[i].comp,pess[i].cep,pess[i].cida,pess[i].uf,pess[i].tel[1],pess[i].tel[2],pess[i].tel[3]);
+		printf("***PESSOA %d***\n%s%s%d\n%s%s%d\n%s%s\n%d\n%d\n%d\n",i+1,pess[i].nome,pess[i].rua,pess[i].num,pess[i].bair,pess[i].comp,pess[i].cep,pess[i].cida,pess[i].uf,pess[i].tel[1],pess[i].tel[2],pess[i].tel[3]);
 	} 
  }
