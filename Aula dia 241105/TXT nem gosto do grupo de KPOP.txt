@@ -1,0 +1,23 @@
+struct estrutura atômica{
+int Prótons, Neutrons, Eletrons, Periodos;
+float Massa Atômica, Ponto de Fusão, Ponto de Ebuçição, Densidade, Eletronegatividade;
+	struct Distribuição Eletronica{
+	int /*1-7*/s[2],/*2-7*/p[6],/*3-6*/d[10],/*4-5*/f[14];
+	}
+	struct Camada Eletronica{
+	int K[2],L[8],M[18],N[32],O[32],P[8],Q[];
+	}
+char Série, Nome, Sigla;
+}
+
+Séries Existentes: H=Hidrogênio, 1s¹, K=1; 
+Alcalinos, /*2-7*/s¹, /*K-Q*/=1;
+Alc.terrosos, /*2-7*/s², /*L-Q*/=2;
+Metais de Transição Externa, ;
+Não Metais;
+Semimetais;
+Representativos;
+Gases Nobres;
+Lantanoides;
+Actinoides;
+Desconhecido;
