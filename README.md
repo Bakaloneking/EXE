@@ -1,3 +1,4 @@
 # EXE
-Lista de 50 Exercicios
+Resolução das Listas de Exercicios de Estrutura de Dados
+&
 Codigos em aulas
